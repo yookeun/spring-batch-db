@@ -6,6 +6,7 @@ Spring Batch Sample
 
 ---------------------------
 **spring-batch-db에 적용된 기술은 다음과 같습니다.**
+
 사용된 오픈소스|버전
 ------------|---
 java|1.7
@@ -19,7 +20,7 @@ spring-batch-db에서는 book.csv파일을 읽어들입니다. book.csv파일은
 그래서 이 파일을 읽어들여서 가격을 일괄적으로 10% 올린 데이터로 book테이블에 인서트하는 배치프로그램입니다. 
 
 
-설치방법은 eclipse에서 Import하면 됩니다. (eclipe에 gradle 플러그인이 설치되어 있어야 합니다)
+설치방법은 eclipse에서 Import하면 됩니다. (eclipse에 gradle 플러그인이 설치되어 있어야 합니다)
 >**import > Gradle > Gradle Project**
 
 생성테이블은 아래의 경로에 존재합니다.
