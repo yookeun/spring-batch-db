@@ -1,0 +1,12 @@
+CREATE DATABASE testdb;
+
+use testdb;
+
+CREATE TABLE book (
+	bookID INT NOT NULL AUTO_INCREMENT,
+	bookName VARCHAR(100) NOT NULL,
+	bookAuthor VARCHAR(50) NOT NULL,
+	bookPrice DOUBLE NOT NULL,
+	registDate DATETIME NOT NULL,
+	PRIMARY KEY(bookID)
+);
